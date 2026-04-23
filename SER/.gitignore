@@ -1,2 +1,47 @@
+# IDE and Editor
 .kilocode/
 .specify/
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results - Ignore all bin and obj directories recursively
+**/bin/
+**/obj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+
+# Build artifacts - Ignore all compiled files
+*.dll
+*.exe
+*.so
+*.dylib
+*.pdb
+*.cache
+*.nupkg
+*.nuspec
+*.DotSettings
+**/Properties/AssemblyInfo.cs
+
+# User-specific files
+*.rsuser
+
+# Build logs
+logs/
+*.log
+Log/
+
+# Published files
+publish/
+*.Publish.xml

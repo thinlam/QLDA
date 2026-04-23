@@ -188,7 +188,6 @@ public class DuAn : MaterializedPathEntity<Guid>, IAggregateRoot {
     /// Danh sách dự toán của dự án
     /// </summary>
     public ICollection<DuToan>? DuToans { get; set; } = [];
-    public ICollection<KeHoachVon>? KeHoachVons { get; set; } = [];
 
     #endregion
 
